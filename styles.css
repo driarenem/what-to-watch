@@ -183,6 +183,7 @@ body {
 
 @media (max-width: 1110px) {
   .layout {
+    width: 80%;
     margin: 6rem auto;
     display: grid;
     grid-template-areas:
@@ -197,6 +198,8 @@ body {
 
 @media (max-width: 500px) {
   .layout {
+    width: 80%;
+
     margin: 6rem auto;
     display: grid;
     grid-template-areas:
@@ -205,6 +208,6 @@ body {
       "footer footer";
     grid-template-columns: 400px 1fr;
     grid-template-rows: auto 1fr auto;
-    height: 180vh;
+    height: 140vh;
   }
 }
